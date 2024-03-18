@@ -57,7 +57,6 @@ function extractMatches(inputString: string): string[] {
     let match: RegExpExecArray | null;
 
     while ((match = regex.exec(inputString)) !== null) {
-        console.log(match);
         matches.push(match[0]);
     }
 
