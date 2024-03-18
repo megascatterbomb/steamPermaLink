@@ -1,5 +1,5 @@
 {
-  "name": "tf2status",
+  "name": "steampermalinker",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fabricio-191/valve-server-query": "^4.1.9",
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.1",
     "type-steamapi": "^0.9.47"
