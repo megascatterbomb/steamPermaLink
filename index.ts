@@ -28,9 +28,9 @@ async function checkMessage(message: Message) {
 
     for(let customURL of matches) {
         try {
-            console.log(customURL);
-            let permaLink = await api.resolve(customURL);
-            permaLinks.push("https://steamcommunity.com/profiles/" + permaLink);
+            let id = await api.resolve(customURL);
+            console.log(customURL + " --> " + id);
+            permaLinks.push("https://steamcommunity.com/profiles/" + id);
         } catch {
         }
     }
